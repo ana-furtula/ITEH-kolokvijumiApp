@@ -46,25 +46,7 @@
             </tr>
             </thead>
             <tbody>
-            <?php
-            while ($red = $result->fetch_array()) {
-                ?>
-                <tr>
-                    <td><?php echo $red["predmet"] ?></td>
-                    <td><?php echo $red["katedra"] ?></td>
-                    <td><?php echo $red["sala"] ?></td>
-                    <td><?php echo $red["datum"] ?></td>
-                    <td>
-                        <label class="custom-radio-btn">
-                            <input type="radio" name="checked-donut" value=<?php echo $red["id"] ?>>
-                            <span class="checkmark"></span>
-                        </label>
-                    </td>
-
-                </tr>
-                <?php
-            }
-            } ?>
+         
             </tbody>
         </table>
         <div class="row" >
