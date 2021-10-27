@@ -101,7 +101,7 @@ if ($podaci->num_rows == 0) {
                     </div>
 
                     <div class="col-md-12" style="text-align: right">
-                        <button id="btn-obrisi" class="btn btn-danger" style="background-color: red; border: 1px solid white;">Obrisi</button>
+                        <button id="btn-obrisi" formmethod="post" class="btn btn-danger" style="background-color: red; border: 1px solid white;">Obrisi</button>
                     </div>
 
                     <div class="col-md-2" style="text-align: right; color: black">

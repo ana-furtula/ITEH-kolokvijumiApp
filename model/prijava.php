@@ -42,7 +42,7 @@ class Prijava{
         return $conn->query($query);
     }
 
-    public static function insert(Prijava $prijava, mysqli $conn){
+    public static function add(Prijava $prijava, mysqli $conn){
         $query = "INSERT INTO prijave(predmet, katedra, sala, datum) VALUES ('$prijava->predmet', '$prijava->katedra', '$prijava->sala', '$prijava->datum')";
         return $conn->query($query);
     }
